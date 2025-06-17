@@ -10,7 +10,6 @@ st.title("🩺 Diabetes Prediction App")
 st.write("Enter patient details below to predict the likelihood of diabetes:")
 
 # Input fields
-preg = st.number_input("Pregnancies", min_value=0, step=1)
 plas = st.number_input("Plasma Glucose", min_value=0)
 pres = st.number_input("Blood Pressure", min_value=0)
 skin = st.number_input("Skin Thickness", min_value=0)
