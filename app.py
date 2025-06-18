@@ -16,7 +16,7 @@ skin = st.number_input("Skin Thickness", min_value=0)
 
 # Prediction button
 if st.button("Predict"):
-    input_data = np.array([[preg, plas, pres, skin]])
+    input_data = np.array([[plas, pres, skin]])
     prediction = model.predict(input_data)[0]
 
     if prediction == 1:
